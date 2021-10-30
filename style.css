@@ -1,0 +1,82 @@
+.gen {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+.content-central {
+    height: 560px;
+    overflow-y: scroll;
+}
+.contentnomad {
+    height: 700px;
+    overflow-y: scroll;
+}
+.img-content {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: hotpink;
+    object-fit: cover;
+}
+h {
+    font-weight: bold;
+}
+.imgCon {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: hotpink;
+    object-fit: cover;
+}
+.imgnomad {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: hotpink;
+    object-fit: cover;
+}
+.img-profil {
+    object-fit: cover;
+    
+}
+.green {
+    margin-left: -22px;
+    margin-top: 13px;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    background-color: lawngreen;
+}
+.nomad {
+    font-size: 20px;
+    font-style: bold;
+    color: #ffffff;
+    text-decoration: none;
+     
+    
+}
+.nomad:hover{
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    
+
+}
+.channels {
+    text-decoration: none;
+    color:#B5B5B5;
+    margin-left: 10px;
+}
+.friend {
+    text-decoration: none;
+    color:#B5B5B5;
+    /* margin-left: 10px; */
+}
+.friend:hover{
+    color: white;
+}
+.channels:hover {
+    color:white;
+    background-color: grey;
+    border-radius: 5px;
+}
