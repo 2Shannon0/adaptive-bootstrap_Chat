@@ -1,16 +1,49 @@
+.gen:hover{
+    color: black;
+}
 .gen {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: 900;
+    color: black;
+    text-decoration: none;
 }
 .content-central {
     height: 560px;
     overflow-y: scroll;
 }
+.content-central::-webkit-scrollbar {
+    padding-right: 5px;
+    width: 8px;
+    background-color: white;
+  }
+.content-central::-webkit-scrollbar-thumb {
+    width: 5px;
+    border-radius: 100px;
+    background-color: rgb(0,0,0, 0.2);
+}
+  
+.content-central::-webkit-scrollbar-track {
+    background-color: white;
+}
 .contentnomad {
     height: 700px;
     overflow-y: scroll;
 }
+.contentnomad::-webkit-scrollbar {
+    padding-right: 5px;
+    width: 8px;
+    background-color: rgb(73, 72, 72);
+  }
+.contentnomad::-webkit-scrollbar-thumb {
+    width: 5px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255, 0.2);
+}
+  
+.contentnomad::-webkit-scrollbar-track {
+    background-color: rgb(73, 72, 72);
+ }
 .img-content {
     height: 50px;
     width: 50px;
@@ -40,8 +73,9 @@ h {
     
 }
 .green {
-    margin-left: -22px;
-    margin-top: 13px;
+    margin-left:-54px ;
+    margin-top: 8px ;
+    padding: 0%;
     height: 8px;
     width: 8px;
     border-radius: 4px;
@@ -66,6 +100,7 @@ h {
     text-decoration: none;
     color:#B5B5B5;
     margin-left: 10px;
+    margin-top: 7px;
 }
 .friend {
     text-decoration: none;
